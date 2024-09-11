@@ -33,11 +33,13 @@ export default async function Home() {
         {/* Full-Stack Developer başlığını siyah yapıyoruz */}
         <h2 style={{ color: 'black' }}>{profile.title}</h2>
 
+        {/* Bio kısmı: açıklama yazısını geri ekledik */}
+        <p>{profile.bio}</p>
+
         <section className="contact">
-          <h3>Contact</h3>
-          <p>{profile.bio}</p>
-          {/* Çizgi ekleniyor */}
-          <hr style={{ margin: '20px 0', border: '1px solid #ccc' }} />
+          <h3 style={{ marginBottom: '10px', borderBottom: 'none' }}>Contact</h3> {/* borderBottom'u kaldırdık */}
+          {/* Tek çizgi ekleniyor */}
+          <hr style={{ margin: '10px 0', border: '1px solid #ccc' }} />
           <p><b>Email:</b> <a href={`mailto:${profile.contact.email}`}>{profile.contact.email}</a></p>
           <p><b>Phone:</b> {profile.contact.phone}</p>
           <p><b>Address:</b> {profile.contact.address}</p>
