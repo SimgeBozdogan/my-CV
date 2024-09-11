@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import '../styles/globals.css';
 
+// Sunucu tarafında JSON dosyasını yükleme
 async function loadData() {
   const filePath = path.join(process.cwd(), 'public', 'data.json');
   const jsonData = fs.readFileSync(filePath, 'utf8');
@@ -11,7 +12,7 @@ async function loadData() {
 export default async function Home() {
   let data;
   try {
-    data = await loadData(); 
+    data = await loadData(); // JSON verisini yüklüyoruz
     console.log('Veri yüklendi:', data);
   } catch (error) {
     console.error('Veri yüklenemedi:', error);
@@ -29,11 +30,13 @@ export default async function Home() {
       <div className="left-column">
         <img src="/profile.jpg" alt="Profile" className="profile-picture" />
         <h1>{profile.name}</h1>
+        {/* Full-Stack Developer başlığını siyah yapıyoruz */}
         <h2 style={{ color: 'black' }}>{profile.title}</h2>
 
         <section className="contact">
           <h3>Contact</h3>
           <p>{profile.bio}</p>
+          {/* Çizgi ekleniyor */}
           <hr style={{ margin: '20px 0', border: '1px solid #ccc' }} />
           <p><b>Email:</b> <a href={`mailto:${profile.contact.email}`}>{profile.contact.email}</a></p>
           <p><b>Phone:</b> {profile.contact.phone}</p>
@@ -60,6 +63,7 @@ export default async function Home() {
           {experience.map((exp, index) => (
             <div key={index}>
               <h4>{exp.role}</h4>
+              {/* Şirket ismini siyah renkte yazıyoruz */}
               <p style={{ color: 'black' }}>{exp.location}</p> 
               <p>{exp.period}</p>
               <p>{exp.description}</p>
@@ -97,4 +101,3 @@ export default async function Home() {
     </div>
   );
 }
-
