@@ -1,0 +1,55 @@
+{
+    "profile": {
+      "name": "G. Simge BOZDOĞAN",
+      "title": "Full-Stack Developer",
+      "bio": "I am a software developer who enjoys and is curious about the field I have chosen in the software world which is Full-Stack Development. I feel ready and excited for the new and developing experiences I can gain by using the knowledge I have gained through the education I have received and the experiences I have gained. I am aware of the value I can add to the company I am in and I continue to improve myself in order to increase this value.",
+      "contact": {
+        "email": "Simge.bzdgn@gmail.com",
+        "phone": "507 868 90 28",
+        "address": "Beşiktaş/İstanbul",
+        "linkedin": "https://www.linkedin.com/in/gulsumsimgebozdogan",
+        "github": "https://github.com/SimgeBozdogan"
+      }
+    },
+    "education": {
+      "school": "Akdeniz University",
+      "degree": "Bachelor of Computer Engineering",
+      "period": "09/2017 - 01/2024"
+    },
+    "experience": [
+      {
+        "role": "Full-Stack Intern",
+        "location": "Ural Telekom, Antalya",
+        "period": "June 2022 - Nov 2022",
+        "description": "During my internship, I played a key role in the success of the Eyecheckup Web project by developing the admin panel with React.js, enhancing functionality and user experience. I also contributed to backend optimization with Spring Boot, improving API performance and data management. Using technologies like Vue.js, jQuery, Tailwind, PostgreSQL, AWS.I enhanced system performance and scalability, streamlining internal processes and supporting seamless feature deployment."
+      },
+      {
+        "role": "Java Developer Intern",
+        "location": "Evant Teknoloji, Adana",
+        "period": "June 2021 - July 2021",
+        "description": "During my internship, I developed a web-based application with Spring Boot, implementing a full CRUD system and writing RESTful APIs. I enhanced security by adding a protective layer, wrote unit tests to ensure code reliability, and used Swagger to automatically generate comprehensive API documentation."
+      }
+    ],
+    "skills": [
+      "Java, Spring Boot, HTML5, CSS, SCSS, JavaScript, TypeScript, React.js, Node.js, C#, MVC",
+      "PostgreSQL, MongoDB, Database Architecture & Optimization",
+      "Bootstrap, Git, NPM, RESTful APIs, Microservices",
+      "Modern Web Development, Responsive Design, Cross-Browser Compatibility, Version Control (Git), Performance Optimization"
+    ],
+    "certifications": [
+      "Fimple React Bootcamp",
+      "Women in Tech: Inspiring Women Stories 2024",
+      "The Complete 2022 Web Development Bootcamp (Udemy)"
+    ],
+    "projects": [
+      "Book Research Website: Using HTML, CSS, React.js",
+      "Drag-and-Drop Website: A web application that allows users to easily rearrange items through drag-and-drop functionality. Using HTML5, SCSS, CSS, Vue.js, JavaScript, Express.js",
+      "Football Players Evaluation Website: A web app for comparing football players with performance metrics and visual insights. Using Spring Boot and React.js"
+    ],
+    "languages": {
+      "language": "English",
+      "level": "B1"
+    }
+  }
+  
+
